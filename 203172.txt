@@ -1,0 +1,56 @@
+git init
+git remote add origin https://github.com/MarioJovanovski/SI_2024_lab1_203172.git
+git add README.md
+git commit -m "Initial commit"
+git push -u origin master
+git add .
+git commit -m "Add starter code"
+git push -u origin master
+git checkout -b bug1
+git add SILab1_1.java
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+git checkout master
+git checkout -b bug2
+git add SILab1_2.java
+git commit -m "Fix wrong condition in makeBigStringFrom"
+git checkout bug1
+git add SILab1Main.java
+git commit -m "Call method filterOddLengthStrings in main class"
+git checkout bug2
+git add SILab1Main.java
+git commit -m "Call method makeBigStringFrom in main class"
+git push --all origin
+git checkout master
+git merge bug1 -nema konfilikt FF strategija
+	Updating 3fa7780..9ff7438
+	Fast-forward
+ 	  SILab1Main.java | 1 +
+ 	  SILab1_1.java   | 2 +-
+ 	  2 files changed, 2 insertions(+), 1 deletion(-)
+
+git checkout bug2
+git rebase master -- konflikt
+	Auto-merging SILab1Main.java
+	CONFLICT (content): Merge conflict in SILab1Main.java
+	error: could not apply b296386... Call method makeBigStringFrom in main class
+	hint: Resolve all conflicts manually, mark them as resolved with
+	hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+	hint: You can instead skip this commit: run "git rebase --skip".
+	hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+	Could not apply b296386... Call method makeBigStringFrom in main class
+git checkout master
+git merge bug2
+Auto-merging SILab1Main.java
+CONFLICT (content): Merge conflict in SILab1Main.java
+Automatic merge failed; fix conflicts and then commit the result.
+git push --all origin
+
+
+
+
+ 
+
+
+
+
+

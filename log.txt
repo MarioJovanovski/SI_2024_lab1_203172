@@ -1,0 +1,84 @@
+master
+Mario@DESKTOP-AM9J9G1 MINGW64 ~/Desktop/SI_2024_lab1_203172 (bug2|REBASE 2/2)
+$ git log
+commit 9ff74380348f452dc43294ef53dd786ad5aa6bb4 (HEAD -> master, origin/master, origin/bug1, origin/HEAD, bug1)
+Author: Mario <mario.jovanovski177@gmail.com>
+Date:   Sat Apr 13 17:49:07 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 968046a4fd19107969ccdb12411e5adad6e46eda
+Author: Mario <mario.jovanovski177@gmail.com>
+Date:   Sat Apr 13 17:43:29 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 3fa77806732c8e7f39810808db42a6f76dafd256
+Author: Mario <mario.jovanovski177@gmail.com>
+Date:   Sat Apr 13 17:02:55 2024 +0200
+
+    Add starter code
+
+commit 0c8233e5b361823d4c15f2c782a8a203c95bb1b9
+Author: Mario <mario.jovanovski177@gmail.com>
+Date:   Sat Apr 13 16:57:33 2024 +0200
+
+    Initial commit
+
+
+bug1
+Mario@DESKTOP-AM9J9G1 MINGW64 ~/Desktop/SI_2024_lab1_203172 (bug2|REBASE 2/2)
+$ git log
+commit 9ff74380348f452dc43294ef53dd786ad5aa6bb4 (HEAD -> bug1, origin/master, origin/bug1, origin/HEAD, master)
+Author: Mario <mario.jovanovski177@gmail.com>
+Date:   Sat Apr 13 17:49:07 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 968046a4fd19107969ccdb12411e5adad6e46eda
+Author: Mario <mario.jovanovski177@gmail.com>
+Date:   Sat Apr 13 17:43:29 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 3fa77806732c8e7f39810808db42a6f76dafd256
+Author: Mario <mario.jovanovski177@gmail.com>
+Date:   Sat Apr 13 17:02:55 2024 +0200
+
+    Add starter code
+
+commit 0c8233e5b361823d4c15f2c782a8a203c95bb1b9
+Author: Mario <mario.jovanovski177@gmail.com>
+Date:   Sat Apr 13 16:57:33 2024 +0200
+
+    Initial commit
+
+
+bug2
+Mario@DESKTOP-AM9J9G1 MINGW64 ~/Desktop/SI_2024_lab1_203172 (bug2|REBASE 2/2)
+$ git log
+commit b296386f8acfd8086ba53fcfc1bd4f53ba8e8bbd (HEAD -> bug2, origin/bug2)
+Author: Mario <mario.jovanovski177@gmail.com>
+Date:   Sat Apr 13 17:53:32 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 33a3acc11ed1a8fbf64692f96ea9876196bdf107
+Author: Mario <mario.jovanovski177@gmail.com>
+Date:   Sat Apr 13 17:44:36 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 3fa77806732c8e7f39810808db42a6f76dafd256
+Author: Mario <mario.jovanovski177@gmail.com>
+Date:   Sat Apr 13 17:02:55 2024 +0200
+
+    Add starter code
+
+commit 0c8233e5b361823d4c15f2c782a8a203c95bb1b9
+Author: Mario <mario.jovanovski177@gmail.com>
+Date:   Sat Apr 13 16:57:33 2024 +0200
+
+    Initial commit
+
+
